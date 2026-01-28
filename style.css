@@ -2,6 +2,8 @@
 :root {
   --light-green: rgba(245, 245, 245, 1);
   --dark-green: rgba(0, 106, 80, 1);
+  --green: rgba(198, 228, 214, 1);
+  --gray: rgba(14, 14, 14, 0.5);
   --font: "Fira Sans", sans-serif;
 }
 
@@ -10,6 +12,9 @@
   padding: 0;
   box-sizing: border-box;
   font-family: var(--font);
+}
+nav,
+.banner {
   background-color: var(--light-green);
 }
 
@@ -35,4 +40,45 @@
   color: var(--dark-green);
   font-size: 1.1rem;
   font-weight: 600;
+}
+
+/* Banner */
+.banner {
+  padding-top: 1.25rem;
+}
+.banner-container {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--green);
+  padding: 5rem 6.25rem;
+  gap: rem;
+  border-radius: 1.5rem;
+}
+
+.banner-content h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--gray);
+  margin-bottom: 1rem;
+}
+
+.banner-content h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin: 1rem 0;
+  color: black;
+  margin-bottom: 2rem;
+}
+
+.banner-content button {
+  background-color: var(--dark-green);
+  padding: 1rem 2.1rem;
+  font-size: 1.1rem;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.5rem;
 }
