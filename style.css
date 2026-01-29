@@ -14,7 +14,8 @@
   font-family: var(--font);
 }
 nav,
-.banner {
+.banner,
+.pillar {
   background-color: var(--light-green);
 }
 
@@ -81,4 +82,43 @@ nav,
   font-weight: 600;
   border: none;
   border-radius: 0.5rem;
+}
+
+/* pillar section */
+.pillar-container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 5rem 0;
+}
+
+.pillar-container h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.pillar-card-container {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.pillar-card {
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.pillar-card img {
+  height: 4rem;
+  width: 4rem;
+}
+
+.pillar-card h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 0.9rem;
+}
+
+.pillar-card p {
 }
