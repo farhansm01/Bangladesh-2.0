@@ -4,6 +4,13 @@
   --dark-green: rgba(0, 106, 80, 1);
   --green: rgba(198, 228, 214, 1);
   --gray: rgba(14, 14, 14, 0.5);
+  --light-blue: rgba(84, 144, 245, 0.2);
+  --blue: rgba(84, 144, 245, 1);
+  --card-light-green: rgba(198, 228, 214, 1);
+  --card-green: rgba(9, 161, 92, 1);
+  --light-yellow: rgba(247, 235, 207, 1);
+  --yellow: rgba(255, 194, 57, 1);
+
   --font: "Fira Sans", sans-serif;
 }
 
@@ -15,11 +22,12 @@
 }
 nav,
 .banner,
-.pillar {
+.pillar,
+.vision {
   background-color: var(--light-green);
 }
 
-/* navbar */
+/* ...................................................navbar Section............................................. */
 .nav-container {
   max-width: 80%;
   margin: 0 auto;
@@ -43,7 +51,7 @@ nav,
   font-weight: 600;
 }
 
-/* Banner */
+/* ...................................................Banner Section............................................. */
 .banner {
   padding-top: 1.25rem;
 }
@@ -84,20 +92,26 @@ nav,
   border-radius: 0.5rem;
 }
 
-/* pillar section */
-.pillar-container {
+/* ...................................................pillar section............................................. */
+/* Common CSS */
+.pillar-container,
+.vision-container {
   max-width: 80%;
   margin: 0 auto;
-  padding: 5rem 0;
+  padding-top: 5rem;
 }
 
-.pillar-container h2 {
+/* Common CSS */
+.pillar-container h2,
+.vision-container h2 {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 2rem;
 }
 
-.pillar-card-container {
+/* Common CSS */
+.pillar-card-container,
+.vision-card-container {
   display: flex;
   gap: 1.5rem;
 }
@@ -113,12 +127,50 @@ nav,
   width: 4rem;
 }
 
-.pillar-card h3 {
+/* Common CSS */
+.pillar-card h3,
+.vision-card h3 {
   font-size: 1.25rem;
   font-weight: 700;
   margin-top: 1.5rem;
   margin-bottom: 0.9rem;
 }
 
-.pillar-card p {
+/*.............................................. Vision Section..........................................................*/
+
+.vision-container p {
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 2rem;
+}
+
+.vision-card {
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.blue-card {
+  background-color: var(--light-blue);
+}
+.green-card {
+  background-color: var(--card-light-green);
+}
+.yellow-card {
+  background-color: var(--light-yellow);
+}
+.vision-card button {
+  padding: 0.7rem 1.25rem;
+  border-radius: 0.5rem;
+  border: none;
+  color: white;
+  font-weight: 600;
+}
+
+.blue-card button {
+  background-color: var(--blue);
+}
+.green-card button {
+  background-color: var(--card-green);
+}
+.yellow-card button {
+  background-color: var(--yellow);
 }
