@@ -107,7 +107,8 @@ button:hover {
 /* Common CSS */
 .pillar-container,
 .vision-container,
-.opinion-container {
+.opinion-container,
+.news-container {
   max-width: 80%;
   margin: 0 auto;
   padding-top: 5rem;
@@ -116,7 +117,8 @@ button:hover {
 /* Common CSS */
 .pillar-container h2,
 .vision-container h2,
-.opinion-container h2 {
+.opinion-container h2,
+.news-container h2 {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 2rem;
@@ -269,4 +271,58 @@ button:hover {
 .opinion-select option {
   font-weight: 500;
   font-size: 1rem;
+}
+
+/* ............................................News Section............................................. */
+
+.news-container p {
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 2rem;
+}
+
+.news-card {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  background-color: white;
+  padding: 3rem;
+  border-radius: 1.5rem;
+}
+
+.news-card .satelite-img {
+  border-radius: 1.5rem;
+}
+
+.news-card-content h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.news-card-content p,
+.news-card-content span {
+  color: rgba(14, 14, 14, 0.7);
+  line-height: 1.75rem;
+  margin-top: 12px;
+}
+
+.news-card-content button {
+  background-color: var(--dark-green);
+  padding: 0.8rem 1.6rem;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+  transition:
+    transform 0.2s ease,
+    filter 0.2s ease;
+}
+
+.al-jazeera img {
+  margin: 0.75rem 0;
+  display: block;
+}
+
+.date {
+  margin-right: 12px;
 }
