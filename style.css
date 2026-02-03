@@ -106,7 +106,8 @@ button:hover {
 /* ...................................................pillar section............................................. */
 /* Common CSS */
 .pillar-container,
-.vision-container {
+.vision-container,
+.opinion-container {
   max-width: 80%;
   margin: 0 auto;
   padding-top: 5rem;
@@ -114,7 +115,8 @@ button:hover {
 
 /* Common CSS */
 .pillar-container h2,
-.vision-container h2 {
+.vision-container h2,
+.opinion-container h2 {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 2rem;
@@ -213,4 +215,58 @@ button:hover {
 
 .quote-container p {
   color: rgba(14, 14, 14, 0.7);
+}
+
+/* ............................................Opinion Section............................................. */
+.opinion-content {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.title-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  background-color: var(--card-light-green);
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.row {
+  display: flex;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  border-left: 1px solid rgba(14, 14, 14, 0.15);
+  border-right: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.p {
+  width: 85%;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.select {
+  width: 15%;
+  padding: 1.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-left: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.opinion-select {
+  background-color: var(--card-light-green);
+  border-radius: 4px;
+  padding: 12.5px 16.5px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.opinion-select option {
+  font-weight: 500;
+  font-size: 1rem;
 }
