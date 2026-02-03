@@ -110,7 +110,8 @@ button:hover {
 .opinion-container,
 .news-container,
 .donate-container,
-.newsletter-container {
+.newsletter-container,
+.footer-container {
   max-width: 80%;
   margin: 0 auto;
 }
@@ -396,6 +397,9 @@ button:hover {
 }
 
 /* ............................................Newsletter Section............................................. */
+.newsletter {
+  padding-bottom: 5rem;
+}
 .newsletter-container {
   max-width: 80%;
   margin: 0 auto;
@@ -441,4 +445,24 @@ button:hover {
   border: none;
   border-radius: 0px 8px 8px 0px;
   cursor: pointer;
+}
+
+/* ............................................Footer Section............................................. */
+footer {
+  background-color: white;
+  padding: 3rem 0;
+}
+.footer-container h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 1.8rem;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.icons {
+  padding-top: 1.8rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
 }
